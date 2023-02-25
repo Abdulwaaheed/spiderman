@@ -1,0 +1,67 @@
+.about_header{
+    width: 100%;
+    height: 700px;
+    color: white;
+}
+.about_showcase{
+    width: 100%;
+    height: 700px;
+    color: white;
+}
+.about_left{
+    color: white;
+}
+.about_left img{
+    width: 100%;
+    height: 700px;
+
+}
+.about_middle{
+    background-color: black;
+    width: 100%;
+    min-height: 400px;
+    justify-content: flex-start;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.about_middle img{
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.button{
+    width: 700px;
+    gap: 30px;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.fs{
+    width: 600px;
+    font-size: 13px;
+}
+.about_right{
+    min-height: 400px;
+    width: 100%;
+    background-color: black;
+
+}
+section{
+padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+section img{
+    
+    width: 180px;
+}
+.carousel-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-item{
+    width: 200px;
+    height: 400px;
+}

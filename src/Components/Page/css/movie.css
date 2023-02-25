@@ -1,0 +1,26 @@
+.movie_showcase {
+    width: 100%;
+    overflow: hidden;
+}
+.movie_card{
+    width: 100%;
+    background-color: black;
+    min-height: 300px;
+    display: grid;
+    grid-template-columns: repeat(7,2fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 30px;
+    
+}
+.movie_card img{
+    /* margin-left: 20px;
+    margin-top: 20px; */
+    padding: 10px 0 10px 20px;
+    height: 200px;
+    width: 150px;
+}
+#log2 {
+    margin-top: 50px;
+    height: 500px;
+    width: 100%;
+}
